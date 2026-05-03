@@ -1,0 +1,35 @@
+git init
+  - Initializes a new local Git repository in the current folder.
+
+git add .
+  - Stages all changed files in the current directory for the next commit.
+
+git commit -m "message"
+  - Records the staged changes as a new commit with a descriptive message.
+
+git branch feature
+  - Creates a new branch named 'feature'.
+
+git checkout feature
+  - Switches the working directory to the specified branch.
+
+git checkout master
+  - Switches back to the master branch.
+
+git merge feature
+  - Merges the 'feature' branch into the currently active branch.
+
+git log --oneline --graph --all
+  - Displays a compact, visual commit history across all branches.
+
+git reset --soft HEAD~1
+  - Undoes the last commit but keeps the changes staged (soft undo).
+
+git remote add origin <url>
+  - Links the local repository to a remote GitHub repository.
+
+git push -u origin master
+  - Pushes the local master branch to GitHub and sets it as the upstream.
+
+git branch -M master
+  - Renames the current branch to 'master'.
